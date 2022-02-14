@@ -14,6 +14,9 @@ services:
     build: eureka
     ports:
       - 8761:8761
-
+  config:
+    build: config
+    ports:
+      - 8888:8888
 
 

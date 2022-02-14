@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/o7planning/spring-cloud-config-git-repo-example.git
+          uri: https://github.com/dosent/config.git
