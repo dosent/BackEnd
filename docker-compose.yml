@@ -18,5 +18,3 @@ services:
     build: config
     ports:
       - 8888:8888
-
-
