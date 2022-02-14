@@ -1,0 +1,19 @@
+version: '2.1'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    container_name: rabbitmq
+    ports:
+      - 15672:15672
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
+  eureka:
+    build: eureka
+    ports:
+      - 8761:8761
+
+
+
